@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BlackVortex – Your Computer Companion</title>
+
+<style>
+
+.meet-section {
+    margin-top: 20px; /* minska detta värde för att flytta upp */
+}
+
+
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0b0b0b;
+        font-family: Arial, sans-serif;
+        color: #eaffea;
+        text-align: center;
+    }
+
+    /* Reklam */
+    .ad {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 160px;
+        z-index: 10;
+    }
+
+    .ad-left {
+        left: 10px;
+    }
+
+    .ad-right {
+        right: 10px;
+    }
+
+    .ad img {
+        width: 100%;
+        border: 2px solid #2cff2c;
+        box-shadow: 0 0 15px #2cff2c;
+        background: #000;
+    }
+
+    /* Innehåll */
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: #7dff7d;
+        text-shadow: 0 0 10px #2cff2c;
+    }
+
+    .pet-image img {
+        max-width: 100%;
+        border: 4px solid #7dff7d;
+        box-shadow: 0 0 20px #2cff2c;
+        background: #000;
+    }
+
+    .description {
+        font-size: 18px;
+        line-height: 1.6;
+        background: #111;
+        padding: 20px;
+        border: 2px solid #2cff2c;
+    }
+
+    .download-btn {
+        margin-top: 40px;
+        font-size: 26px;
+        padding: 20px 50px;
+        background: linear-gradient(#b6ffb6, #4dff4d);
+        color: #003300;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 6px #1a7f1a;
+    }
+
+    .download-btn:hover {
+        transform: translateY(2px);
+        box-shadow: 0 4px #1a7f1a;
+    }
+
+    /* Dölj reklam på mobil */
+    @media (max-width: 1200px) {
+        .ad {
+            display: none;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="top-banner">
+    <img src="uppe.png" alt="Top Banner">
+</div>
+
+
+<!-- Reklam vänster -->
+<div class="ad ad-left">
+    <img src="ad1.png" alt="Advertisement">
+</div>
+
+<!-- Reklam höger -->
+<div class="ad ad-right">
+    <img src="ad2.png" alt="Advertisement">
+</div>
+
+<div class="container">
+    <h1>BlackVortex</h1>
+    <h3>Your Virtual Computer Companion</h3>
+
+    <div class="pet-image">
+        <img src="kinito.png" alt="KinitoPet">
+    </div>
+
+    <div class="description">
+       BlackVortex invites you to their wonderful world, full of fun and excitement! 
+
+There, he will be your very own virtual friend and personal helper!
+
+
+Vortex is able to walk, talk, browse, adapt, and play games; as Vortex is like no other with its adaptive technology!
+
+Vortex will also keep you files safe and tell you when there is a suspect file or a dangerous file. Example if it has virus.
+
+Vortex is a friend you'll never forget with its critically acclaimed R.R.A to make your experience truly unique, 
+
+where else can you find a friend like Vortex with its multitude of great features and friendly love!
+    </div>
+
+    <a href="BlackVortex.zip" download>
+    <button class="download-btn">
+        DOWNLOAD NOW!
+    </button>
+</a>
+
+
+<div class="meet-section">
+    <div class="meet-image">
+        <img src="meet.png" alt="Meet image">
+    </div>
+
+    <div class="meet-description">
+        <h3>Meet BlackVortex</h3>
+        <p>
+            BlackVortex is watching, learning, and adapting to you.
+            This companion is unlike anything you've seen before.
+			And it will keep your computer safe and watch over your
+			files.
+        </p>
+    </div>
+</div>
+
+
+<div class="mobile-footer">
+    You're on mobile, go to this website
+    <a href="https://blackvortex-mobile.netlify.app">blackvortex-mobile.netlify.app</a>
+    instead!
+</div>
+</body>
+</html>
